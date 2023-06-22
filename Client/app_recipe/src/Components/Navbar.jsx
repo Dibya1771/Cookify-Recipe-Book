@@ -159,6 +159,11 @@ function Navbar({ handleColorChange }) {
             </IconContext.Provider >
         </>
     );
+
+        <div>
+            <img />
+        </div>
+    )
 }
 
 export default Navbar;
