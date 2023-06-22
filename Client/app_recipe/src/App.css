@@ -1,4 +1,26 @@
-.App {
+/* .App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+body{
+  background: black;
+}
+.App h1{
+  color: white;
+}
+.App p{
+  margin: 20px 0px;
+  color: #ccc;
+  font-size: 15px;
+  width: 500px;
   text-align: center;
 }
-
+.s_AppCard{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ */
