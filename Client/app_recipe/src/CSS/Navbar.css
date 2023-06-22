@@ -1,0 +1,210 @@
+.navbar {
+  backdrop-filter: blur(4px);
+  background-color: rgba(252, 241, 241, 0.252);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  height: 80px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 999;
+  position: sticky;
+  width: 100%;
+  top: 0;
+}
+
+.d_left {
+  position: fixed;
+  margin-top: 0.5rem;
+}
+.logo_nav {
+  margin-left: 3.5rem;
+  width: 9rem;
+  height: 4rem;
+}
+
+.d_menu-bars {
+  margin-left: 1rem;
+  font-size: 2rem;
+  background: none;
+}
+
+.nav-menu {
+  z-index: 999;
+  backdrop-filter: blur(4px);
+  background-color: rgba(0, 0, 0, 0.334);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  width: 220px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  transition: 1.6s;
+}
+
+.nav-menu.active {
+  left: 0;
+  transition: 0.5s;
+}
+
+/* -----------------  */
+.nav-text {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 8px 0px 8px 16px;
+  list-style: none;
+  height: 60px;
+}
+
+.nav-text a {
+  /* This we define inside SidebarData */
+  text-decoration: none;
+  color: #f5f5f5;
+  font-size: 18px;
+  width: 95%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  border-radius: 4px;
+}
+
+.nav-text a:hover {
+  backdrop-filter: blur(4px);
+  /* -webkit-filter: blur(1px); */
+  background-color: rgba(252, 241, 241, 0.252);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  transition: 0.4s;
+  /* margin-left: 10px; */
+  animation: moveeeLine 0.5s linear;
+}
+
+@keyframes moveeeLine {
+  0%,
+  100% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(10px);
+  }
+}
+
+.nav-menu-items {
+  width: 100%;
+}
+
+.navbar-toggle {
+  /* backdrop-filter: blur(4px); */
+  /* -webkit-filter: blur(1px); */
+  /* background-color: rgba(252, 241, 241, 0.252); */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+#d_nav_span {
+  margin-left: 16px;
+}
+.d_mid {
+  position: fixed;
+  margin-left: 43.5rem;
+}
+/* image, button, mode*/
+
+.notch {
+  margin-top: 3.2rem;
+  width: 120px;
+  height: 30px;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  transform: translateY(30px);
+  z-index: 999;
+  backdrop-filter: blur(10px);
+  /* -webkit-filter: blur(1px); */
+  background-color: rgba(255, 250, 250, 0.353);
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.notch:before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 20px solid #ffffff; /* Updated to triangle color */
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -30px) rotate(180deg);
+  transition: transform 0.3s;
+}
+
+.notch.expanded:before {
+  transform: translate(-50%, -30px); /* Updated for rotation */
+}
+
+.circle-buttons {
+  display: flex;
+  /* margin-top: 20px; */
+  flex-direction: row; /* Updated */
+  align-items: center;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, 5px); /* Updated */
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+}
+
+.notch.expanded .circle-buttons {
+  opacity: 1;
+  pointer-events: auto;
+
+  background-color: rgba(251, 251, 251, 0.584);
+
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.circle-button {
+  width: 20px;
+  height: 20px;
+  margin-left: 4px;
+  border-radius: 50%;
+  /* background-color: #060b26; */
+  margin-bottom: 4px;
+}
+
+.d_right {
+  position: fixed;
+  margin-left: 86.5rem;
+}
+.ddd_right {
+  margin-top: -2.7rem;
+  margin-left: 3rem;
+}

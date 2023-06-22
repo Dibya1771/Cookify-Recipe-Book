@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Georgia", sans-serif;
+  box-sizing: border-box;
+}
+
+.d_user {
+  width: fit-content;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+/* For light mode we have to do in each file by calling with that id simlilarly where we want do like this ....  */
+
+#light .d_user {
+  background-color: #4caf50;
+}
+
+/* ------------------------------------ */
+.d_user img {
+  /* width: 320px; */
+  margin-left: auto;
+  margin-right: auto;
+  width: 280px;
+  height: 280px;
+  object-fit: contain;
+  cursor: pointer;
+  border-radius: 10px;
+  position: relative;
+  z-index: 100;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  transition: transform 1s, box-shadow 1s;
+}
+.d_info {
+  padding: 10px 50px;
+  transform: translateX(50px);
+  opacity: 1;
+  transition: transform 1s, opacity 1s;
+}
+.d_info h1 {
+  font-size: 50px;
+  font-weight: 500;
+}
+.d_info p {
+  line-height: 26px;
+}
+.d_info a {
+  background: #4f40ff;
+  color: #fff; /* -------------- */
+  font-size: 15px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 12px 40px;
+  border-radius: 30px;
+  margin-top: 16%;
+}
+
+.d_close-icon {
+  width: 320px;
+  cursor: pointer;
+  position: relative;
+  transition: transform 1s;
+}
+.d_close-icon::before,
+.d_close-icon::after {
+  content: "";
+  height: 100%;
+  width: 2px;
+  /* background: #333;
+  border: 1px solid #e4bdbdc1; */
+  background-color: #2d2c27;
+  border-left: 1px solid #fff152;
+  position: absolute;
+  top: 0;
+  margin-top: 3px;
+  left: 50%;
+  margin-left: -1px;
+}
+.d_close-icon::before {
+  transform: rotate(30deg);
+}
+.d_close-icon::after {
+  transform: rotate(-30deg);
+}
+.d_hide-details .d_info {
+  transform: translateX(50px);
+  opacity: 0;
+}
+.d_hide-details .d_close-icon {
+  transform: translateX(-309.5px);
+}
+.d_hide-details img {
+  transform: translatex(335px);
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.3);
+}
+
+/* .d_update_form .d_hide-details {
+    background: #40ff46;
+    padding: 20px;
+  } */
+
+.d_update_form h2 {
+  font-weight: 550;
+  text-align: center;
+  font-size: 16px;
+  margin-top: -0.4rem;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-left: 31%; */
+  width: 35%;
+  padding: 20px;
+  border-radius: 14px;
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
+}
+
+.d_add_recipe_form {
+  margin-top: 25px;
+  /* background-color: #ffffffc4; */
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-left: 26%; */
+  width: 55%;
+}
+
+/* Type writer effect */
+.d_add_recipe_form h2 {
+  font-family: "Courier New", Courier, monospace;
+  border-radius: 15px;
+  box-shadow: rgba(50, 50, 93, 0.397) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.478) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.521) 0px -2px 6px 0px inset;
+
+  /* Blur Effect */
+  backdrop-filter: blur(6px);
+  /* -webkit-filter: blur(1px); */
+  background-color: rgba(252, 241, 241, 0.252);
+
+  font-weight: 550;
+  text-align: center;
+  font-size: 16px;
+  padding: 20px;
+  color: #151514;
+}
+
+/*For post */
+.d_post-button {
+  /* position: fixed; */
+  font-size: 18px;
+  margin-left: 42.2rem;
+  margin-top: 2rem;
+  padding: 14px 18px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+  /* box-shadow: inset 1px 1px 2px #21212170; */
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.d_form-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.54);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.d_form-container {
+  /* margin-left: 78%; */
+  background-color: #fff;
+  padding: 20px;
+  /* box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.807); */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  position: relative;
+  border-radius: 10px;
+  width: 20%;
+  height: 50%;
+}
+.d_form-overlay .d_form-container h1 {
+  padding: 6px;
+  border-radius: 15px;
+  font-weight: 550;
+  text-align: center;
+  font-size: 15px;
+}
+.d_form-overlay .d_form-container hr {
+  width: 50%;
+  height: 3px;
+  background: #ff00ff;
+  margin-left: auto;
+  margin-right: auto;
+}
+.d_close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.d_form-input {
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  margin-left: 1.5rem;
+}
+
+.d_submit-button {
+  padding: 5px 24px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-left: 6.1rem;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.d_data-content {
+  margin-top: 20px;
+  /* Add any additional styles for the data/content section */
+}
+.d_update_form #d_set h1 {
+  font-weight: 550;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#d_set {
+  margin-left: auto;
+  margin-right: auto;
+  width: 11%;
+}
+#d_set #linemovement {
+  width: 100px;
+  height: 3px;
+  background-color: #fff152;
+  border-top: 1px solid #ff1616;
+  position: relative;
+  animation: moveLine 4s linear infinite; /* Adjust the duration as per your preference */
+}
+
+@keyframes moveLine {
+  0%,
+  100% {
+    left: 0;
+  }
+  50% {
+    left: calc(100% - 100px);
+  }
+}
