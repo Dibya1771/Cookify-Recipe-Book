@@ -1,0 +1,143 @@
+.s_about {
+  margin-top: 5rem;
+  text-align: center;
+}
+.ssss_container {
+  width: 15rem;
+  height: 22rem;
+  background: linear-gradient(to left bottom, #a9a8e29d, #363636aa);
+  padding: 3rem;
+  border-radius: 1rem;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transition: transform 0.8s;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.s_front {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform-style: preserve-3d;
+  z-index: 1;
+}
+
+.s_image {
+  width: 11.5rem;
+  height: 15rem;
+  border-radius: 1rem;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.ssss_container h2 {
+  /* color: #eeeeee; */
+  margin-top: 1rem;
+  font-weight: 600;
+  font-size: 20px;
+}
+.s_back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform-style: preserve-3d;
+  transform: rotateY(180deg);
+  background-color: #1e1e1e6f;
+  padding: 20px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.ssss_container:hover {
+  transform: rotateY(180deg);
+  transform-origin: center center;
+}
+
+.ssss_container .s_front,
+.ssss_container .s_back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.ssss_container .s_back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotateY(180deg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+  text-align: center;
+}
+
+@keyframes flip {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotateY(180deg);
+  }
+}
+
+.s_Card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.s_set h1 {
+  font-weight: 550;
+  text-align: center;
+  font-size: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.s_set #linemovement {
+  width: 100px;
+  height: 3px;
+  margin-left: 42rem;
+  margin-right: auto;
+  margin-top: -0.2rem;
+  margin-bottom: 1rem;
+  background-color: rgb(228, 36, 11);
+  animation: linemovement-animation 3s linear infinite;
+}
+
+@keyframes linemovement-animation {
+  0%,
+  100% {
+    transform: translateX(1rem);
+  }
+  50% {
+    transform: translateX(60%);
+  }
+}

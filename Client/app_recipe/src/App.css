@@ -26,7 +26,7 @@
   );
 }
 /* Light and Dark theme */
-.mode_switch {
+/* .mode_switch {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,4 +42,4 @@
 }
 #dark .mode_switch label {
   color: #fff;
-}
+} */

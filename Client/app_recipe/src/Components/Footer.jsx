@@ -1,30 +1,53 @@
-import React from 'react'
-import '../CSS/Footer.css'
+import React from "react";
+import "../CSS/Footer.css";
+import Facebook from "@mui/icons-material/Facebook";
+import Instagram from "@mui/icons-material/Instagram";
+import LinkedIn from "@mui/icons-material/LinkedIn";
+import Twitter from "@mui/icons-material/Twitter";
+
 
 const Footer = () => {
     return (
         <div className="footer">
             <div className="row1">
-                <a href="#"><i className="fa-brands fa-github"></i></a>
-                <a href="#"><i className="fa-brands fa-instagram"></i></a>
-                <a href="#"><i className="fa-brands fa-linkedin"></i></a>
-                <a href="#"><i className="fa-brands fa-twitter"></i></a>
+                <a href="#">
+                    <Facebook />
+                </a>
+                <a href="#">
+                    <Instagram />
+                </a>
+                <a href="#">
+                    <LinkedIn />
+                </a>
+                <a href="#">
+                    <Twitter />
+                </a>
             </div>
 
             <div className="row">
                 <ul>
-                    <li><a href="#">Contact us</a></li>
-                    <li><a href="#">Our Services</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Terms & Conditions</a></li>
-                    <li><a href="#">Career</a></li>
+                    <li>
+                        <a href="#">Contact us</a>
+                    </li>
+                    <li>
+                        <a href="#">Our Services</a>
+                    </li>
+                    <li>
+                        <a href="#">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a href="#">Terms & Conditions</a>
+                    </li>
+                    <li>
+                        <a href="#">Career</a>
+                    </li>
                 </ul>
             </div>
 
             <div className="row">
-                QUIZWIZ Copyright © 2023 QuizWiz - All rights reserved
+                COOKIFY Copyright © 2023 Cookify - All rights reserved
             </div>
         </div>
-    )
-}
+    );
+};
 export default Footer;

@@ -1,4 +1,3 @@
-
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import React, { useState } from 'react';
@@ -8,7 +7,9 @@ import Profile from './Pages/Profile/Profile';
 import Favourites from './Pages/Favourites/Favourites';
 import About from './Pages/About/About';
 import Contact from './Pages/Contact/Contact';
-import Footer from './Components/Footer'
+import Footer from './Components/Footer';
+import Recipe from "./Pages/Recipe/Recipe";
+import Login from "./Pages/Login/Login";
 
 function App() {
   const [selectedColor, setSelectedColor] = useState(''); // Default background color
@@ -32,6 +33,9 @@ function App() {
           <Route path='/favourites' element={<Favourites />} />
           <Route path='/about' element={<About />} />
           <Route path='/contact' element={<Contact />} />
+          <Route path='/login' element={<Login />} />
+          <Route path='/recipe' element={<Recipe />} />
+
         </Routes>
         <Footer />
       </Router>
