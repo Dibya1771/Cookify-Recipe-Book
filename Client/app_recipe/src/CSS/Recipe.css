@@ -1,0 +1,90 @@
+.ss_card{
+    display:flex;
+    margin-bottom:3rem;
+    height:93vh;
+    text-align: left;
+    flex-wrap: wrap;
+}
+#ss_iframe{
+    margin:2rem;
+    width:46rem;
+    height:25.8rem;
+    border-radius:1rem;
+}
+.ss_video{
+    height:30rem;
+    display:grid;
+}
+.ss_video p{
+    margin-top:-1.5rem;
+    margin-right:2rem;
+    text-align: end;
+}
+
+.ss_ingredient_child{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-right: 1rem;
+    
+}
+.ss_ingredients h3{
+margin-left: 1.5rem;
+margin-bottom: 0rem;
+padding-top: 1rem;
+}
+
+
+
+.ss_ingredients{
+    background-color: rgb(255, 248, 240);
+    border-radius:1rem;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+.ss_data{
+    margin:0rem 0rem 0rem -3rem;
+    height:100vh;
+    overflow-y:scroll;
+    overflow-x: hidden;
+    /* width:53%; */
+    width:48.5rem;
+}
+
+.ss_data::-webkit-scrollbar {
+  display: none;
+}
+
+.ss_data-child{
+    margin-top:1.5rem;
+    margin-left:3.5rem;
+    margin-right:2.2rem;
+}
+.ss_item{
+    margin-left:0.2rem;
+}
+
+.ss_recipe{
+     background-color: rgb(255, 248, 240);
+    border-radius:1rem;
+   box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    margin-top:2rem;
+    padding:1rem;
+}
+.ss_recipe h3{
+    margin-top:0;
+    padding-left:0.5rem;
+}
+.ss_recipe p{
+    display:flex;
+    flex-direction:column;
+    
+
+}
+.ss_recipe span{
+    padding:0.4rem;
+}
+#ss_add{
+    margin:0 2rem 0 2rem;
+    background-color: rgb(166, 91, 0);
+    border-radius:0.5rem;
+}
