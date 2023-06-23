@@ -1,4 +1,37 @@
 {
+  "user": [
+    {
+      "name": "fff",
+      "email": "mrbiku4444@gmail.com",
+      "password": "2222",
+      "gender": "male",
+      "dob": "0222-02-22",
+      "id": 8
+    },
+    {
+      "email": "mrbiku4444@gmail.com",
+      "password": "2222",
+      "id": 9
+    },
+    {
+      "name": "Biku",
+      "email": "div@gmail.com",
+      "password": "0000",
+      "gender": "male",
+      "dob": "1994-07-12",
+      "id": 10
+    },
+    {
+      "email": "div@gmail.com",
+      "password": "0000",
+      "id": 11
+    },
+    {
+      "email": "mrbiku4444@gmail.com",
+      "password": "7777",
+      "id": 12
+    }
+  ],
   "items": [
     {
       "id": 1,
@@ -41,7 +74,6 @@
       "image": "https://www.shutterstock.com/image-photo/spicy-reddish-chicken-curry-masala-260nw-677910214.jpg",
       "video": "https://www.youtube.com/embed/ce2kekQM3aU "
     },
-
     {
       "id": 5,
       "title": "Fish Curry",
@@ -65,7 +97,6 @@
       "image": "https://allwaysdelicious.com/wp-content/uploads/2022/03/kerala-fish-curry-overhead.jpg",
       "video": "https://www.youtube.com/embed/Kh1VmBY22iM"
     },
-
     {
       "id": 6,
       "title": "Prawn Curry",
@@ -89,7 +120,6 @@
       "image": "https://khinskitchen.com/wp-content/uploads/2022/07/prawn-curry-with-coconut-milk-07.jpg",
       "video": "https://www.youtube.com/embed/fkSF9nALVpg"
     },
-
     {
       "id": 7,
       "title": "Mutton Curry",
@@ -113,7 +143,6 @@
       "image": "https://myfoodstory.com/wp-content/uploads/2016/12/Easy-Mutton-Curry-2.jpg",
       "video": "https://www.youtube.com/embed/XyCOgOFMLiM"
     },
-
     {
       "id": 8,
       "title": "Crab Curry",
@@ -137,7 +166,6 @@
       "image": "https://geekrobocook.com/wp-content/uploads/2021/04/Malwani-Crab-Curry.jpg",
       "video": "https://www.youtube.com/embed/dIFnrihI8jw"
     },
-
     {
       "id": 9,
       "title": "Chicken Pizza",
@@ -159,7 +187,6 @@
       "image": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/video-api/assets/216054.jpg",
       "video": "https://www.youtube.com/embed/z6CmFx32k34"
     },
-
     {
       "id": 10,
       "title": "Chicken Burger",
@@ -185,7 +212,6 @@
       "image": "https://www.thecookingcollective.com.au/wp-content/uploads/2022/04/a-finished-crispy-chicken-burger-on-a-wooden-board.jpg",
       "video": "https://www.youtube.com/embed/3g3_US1cfhA"
     },
-
     {
       "id": 11,
       "title": "Chicken Hotdog",
@@ -204,7 +230,6 @@
       "image": "https://images.eatsmarter.com/sites/default/files/styles/max_size/public/chicken-cutlet-sandwich-american-style-532124.jpg",
       "video": "https://www.youtube.com/embed/T9A8CbJsFe8"
     },
-
     {
       "id": 12,
       "title": "Chicken Biryani",
@@ -232,7 +257,6 @@
       "image": "https://www.licious.in/blog/wp-content/uploads/2020/12/Hyderabadi-chicken-Biryani.jpg",
       "video": "https://www.youtube.com/embed/jjmR9C_X7LY"
     },
-
     {
       "id": 13,
       "title": "Mutton Biryani",
@@ -260,7 +284,6 @@
       "image": "https://c.ndtvimg.com/2019-02/45dlkeqo_mutton-biryani_625x300_27_February_19.jpg",
       "video": "https://www.youtube.com/embed/s4YsKuoYTe8"
     },
-
     {
       "id": 14,
       "title": "Chocolate Ice Cream",
@@ -277,7 +300,6 @@
       "image": "https://www.milkmaid.in/sites/default/files/2020-07/Chocolate-Ice-Cream_0.jpg",
       "video": "https://www.youtube.com/embed/DuDbvnM2KCE"
     },
-
     {
       "id": 15,
       "title": "Vanilla Ice Cream",
@@ -293,7 +315,6 @@
       "image": "https://www.savoryexperiments.com/wp-content/uploads/2021/06/Vanilla-Ice-Cream-9.jpg",
       "video": "https://www.youtube.com/embed/6lEQxL9A0Ow"
     },
-
     {
       "id": 16,
       "title": "Jalebi",
@@ -313,7 +334,6 @@
       "image": "https://media.istockphoto.com/id/1159362325/photo/bread-pakora.jpg?s=612x612&w=0&k=20&c=93uILcInCMXroXgjEJYXNeUzWh5NASSrEnylAgW7hcs=",
       "video": "https://www.youtube.com/embed/0w471_wMPP0"
     },
-
     {
       "id": 17,
       "title": "Rasgulla",
@@ -331,7 +351,6 @@
       "image": "https://static.toiimg.com/photo/52743612.cms",
       "video": "https://www.youtube.com/embed/7VDWtgqDun4"
     },
-
     {
       "id": 18,
       "title": "chicken nuggets",
@@ -351,7 +370,6 @@
       "image": "https://www.foodnetwork.com/content/dam/images/food/fullset/2015/4/8/4/WU1004H_Chicken-Nuggets_s4x3.jpg",
       "video": "https://www.youtube.com/embed/f3AK45Fogp8"
     },
-
     {
       "id": 19,
       "title": "chicken sandwich",
@@ -372,7 +390,6 @@
       "image": "https://c.ndtvimg.com/2021-07/vckh316o_grilled-chicken-sandwich_625x300_28_July_21.jpg",
       "video": "https://www.youtube.com/embed/XxlitHO0v18"
     },
-
     {
       "id": 20,
       "title": "Chicken Lollipop",
@@ -394,7 +411,6 @@
       "image": "https://allchickenrecipe.com/wp-content/uploads/2020/05/Chicken-Lollipop.jpg",
       "video": "https://www.youtube.com/embed/Wu3YyGXmd08"
     },
-
     {
       "id": 21,
       "title": "Chicken Rolls",
@@ -417,7 +433,6 @@
       "image": "https://uploads-ssl.webflow.com/5c481361c604e53624138c2f/60f2ea67b471327a1d82959b_chicken%20roll_1500%20x%201200.jpg",
       "video": "https://www.youtube.com/embed/byDfGzKh7yE"
     },
-
     {
       "id": 22,
       "title": "Chicken Butter Masala",
@@ -442,7 +457,6 @@
       "image": "https://foodandroad.com/wp-content/uploads/2021/04/Butter-chicken-tikka-masala-recipe-curry-indiano-frango-2.jpg",
       "video": "https://www.youtube.com/embed/b7yuoRk227Y"
     },
-
     {
       "id": 23,
       "title": "Brownies",
@@ -460,7 +474,6 @@
       "image": "https://www.southernliving.com/thmb/eLSgazITlYrKf9EFTR9y1L2mSxg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Southern-Living-Homemade_Brownies_023-3c582f0fba1842dd918a3d9c26c1ab59.jpg",
       "video": "https://www.youtube.com/embed/Z1OLG7F3HD4"
     },
-
     {
       "id": 24,
       "title": "Cheesecake",
@@ -479,7 +492,6 @@
       "image": "https://joyfoodsunshine.com/wp-content/uploads/2022/03/best-cheesecake-recipe-6.jpg",
       "video": "https://www.youtube.com/embed/q4wUWqV8kjc"
     },
-
     {
       "id": 25,
       "title": "Kheer",
@@ -498,7 +510,6 @@
       "image": "https://www.whiskaffair.com/wp-content/uploads/2016/03/Thandai-Kheer-2-3.jpg",
       "video": "https://www.youtube.com/embed/9aP9y2LHEIA"
     },
-
     {
       "id": 26,
       "title": "Sandesh",
@@ -513,7 +524,6 @@
       "image": "https://www.cookwithmanali.com/wp-content/uploads/2018/10/Sandesh-Bengali-Sweet.jpg",
       "video": "https://www.youtube.com/embed/kxwKwxrtiOw"
     },
-
     {
       "id": 27,
       "title": "Shahi Tukda",
@@ -1124,7 +1134,6 @@
       "video": "https://www.youtube.com/embed/RCimLIOHcq4"
     }
   ],
-
   "fav": [
     {
       "id": 1,

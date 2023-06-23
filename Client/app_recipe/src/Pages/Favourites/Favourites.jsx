@@ -16,7 +16,7 @@ const Favourites = () => {
 
     const fetchData = async () => {
         try {
-            const response = await fetch("http://localhost:3000/fav");
+            const response = await fetch("http://localhost:8080/fav");
             const data = await response.json();
             setFavourites(data);
         } catch (error) {
@@ -26,7 +26,7 @@ const Favourites = () => {
 
     const removeFromFavourites = async (itemId) => {
         try {
-            await fetch(`http://localhost:3000/fav/${itemId}`, {
+            await fetch(`http://localhost:8080/fav/${itemId}`, {
                 method: "DELETE",
             });
             // Update the state by filtering out the deleted item

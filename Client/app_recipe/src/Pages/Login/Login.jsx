@@ -6,7 +6,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 // import image from '../../Images/undraw_cooking_p7m1.svg';
 
 
-function SignUp() {
+function Login() {
     useEffect(() => {
 
         const signUpButton = document.getElementById('signUp');
@@ -52,6 +52,7 @@ function SignUp() {
 
                         <input type="text" name="txt" placeholder="Name" required className='a_boxx' />
                         <input type="email" name="email" placeholder="email" required className='a_boxx' />
+                        <input type="text" name="contact" placeholder="Contact No" required className='a_boxx' />
                         <input type="password" name="pswd" placeholder="Password" required className='a_boxx' />
                         <div className='seperate'>
                             <select
@@ -107,4 +108,4 @@ function SignUp() {
     );
 }
 
-export default SignUp
+export default Login;

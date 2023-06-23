@@ -9,9 +9,12 @@ import About from './Pages/About/About';
 import Contact from './Pages/Contact/Contact';
 import Footer from './Components/Footer';
 import Recipe from "./Pages/Recipe/Recipe";
+// import RecipeDetails from './Pages/RecipeDetails/RecipeDetails';
 import Login from "./Pages/Login/Login";
 
 function App() {
+
+
   const [selectedColor, setSelectedColor] = useState(''); // Default background color
   const [selectcol, setSelectcol] = useState('#000'); // Default color
 
@@ -29,12 +32,14 @@ function App() {
         <Navbar handleColorChange={handleColorChange} />
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/profile' element={<Profile />} />
+          {/* <Route path='/profile' element={<Profile />} /> */}
+          <Route path="/profile" element={<Profile />} />
           <Route path='/favourites' element={<Favourites />} />
           <Route path='/about' element={<About />} />
           <Route path='/contact' element={<Contact />} />
-          <Route path='/login' element={<Login />} />
+          <Route path="/login" element={<Login />} />
           <Route path='/recipe' element={<Recipe />} />
+          {/* <Route path="/recipes/:recipeId" element={<RecipeDetails />} /> */}
 
         </Routes>
         <Footer />
@@ -44,4 +49,4 @@ function App() {
   );
 }
 
-export default App;
+export default App;  

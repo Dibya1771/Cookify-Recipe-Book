@@ -184,8 +184,11 @@
 
 .d_form-container {
   /* margin-left: 78%; */
-  background-color: #fff;
+  /* background-color: #fff; */
   padding: 20px;
+  backdrop-filter: blur(6px);
+  /* -webkit-filter: blur(1px); */
+  background-color: rgba(252, 241, 241, 0.252);
   /* box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.807); */
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
@@ -218,14 +221,23 @@
 }
 
 .d_form-input {
-  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
-    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  /* backdrop-filter: blur(10px); */
+  /* -webkit-filter: blur(1px); */
+  background-color: rgba(255, 255, 255, 0.589);
+  /* box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.807); */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border: none;
   width: 80%;
   padding: 10px;
   margin-bottom: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #818080;
   border-radius: 7px;
   margin-left: 1.5rem;
+}
+::placeholder {
+  color: #151514;
 }
 
 .d_submit-button {
