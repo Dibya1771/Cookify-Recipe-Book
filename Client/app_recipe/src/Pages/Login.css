@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,800");
+
+#cont_body {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* background: #f6f5f7; */
+  font-family: "Montserrat", sans-serif;
+  min-height: 80vh;
+  /* margin: 2.5rem; */
+}
+
+.a_container {
+  position: relative;
+  width: 768px;
+  max-width: 100%;
+  min-height: 480px;
+  /* background: #fff; */
+  border-radius: 10px;
+  overflow: hidden;
+  /* box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); */
+
+  /* background-color: #041515; */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.a_sign-up,
+.a_sign-in {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  transition: all 0.6s ease-in-out;
+}
+
+.a_sign-up {
+  width: 50%;
+  opacity: 0;
+  z-index: 1;
+}
+
+.a_sign-in {
+  width: 50%;
+  z-index: 2;
+}
+
+.aa_form {
+  /* background: #fff; */
+  background: #aecdcd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 50px;
+  height: 100%;
+  text-align: center;
+}
+
+.a_hh1 {
+  font-weight: bold;
+  margin: 0;
+  color: #ffffff;
+}
+
+.a_ppp {
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  margin: 15px 0 10px;
+}
+
+.a_boxx,
+.box6,
+#dob {
+  background: #d9d9d9;
+  padding: 12px 15px;
+  margin: 8px 15px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.a_container > a,
+.a_sign-in a,
+.a_sign-up a {
+  color: #333;
+  font-size: 14px;
+  text-decoration: none;
+  margin: 15px 0;
+}
+
+.a_button {
+  color: #fff;
+  background: #033333c9;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 55px;
+  margin: 20px;
+  border-radius: 20px;
+  border: 1px solid #004141d0;
+  outline: none;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: transform 80ms ease-in;
+  cursor: pointer;
+}
+
+.a_button:active {
+  transform: scale(0.9);
+}
+
+#signIn,
+#signUp {
+  background-color: #00a3a371;
+  border: 2px solid #fff;
+}
+
+.a_container.right-panel-active .a_sign-in {
+  transform: translateX(100%);
+}
+
+.a_container.right-panel-active .a_sign-up {
+  transform: translateX(100%);
+  opacity: 1;
+  z-index: 5;
+}
+
+.a_overlay-container {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  transition: transform 0.6s ease-in-out;
+  z-index: 100;
+}
+
+.a_container.right-panel-active .a_overlay-container {
+  transform: translateX(-100%);
+}
+
+.a_overlay {
+  position: relative;
+  color: #fff;
+  /* background: #ff416c; */
+  left: -100%;
+  height: 100%;
+  width: 200%;
+  /* background: linear-gradient(to right, #ff4b28, #ff228c); */
+  transform: translateX(0);
+  transition: transform 0.6s ease-in-out;
+}
+
+.a_container.right-panel-active .a_overlay {
+  transform: translateX(50%);
+}
+
+.a_overlay-left,
+.a_overlay-right {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 40px;
+  text-align: center;
+  top: 0;
+  height: 100%;
+  width: 50%;
+  transform: translateX(0);
+  transition: transform 0.6s ease-in-out;
+  background: #1b9f9f51;
+}
+
+.a_overlay-left {
+  transform: translateX(0);
+
+  /* background: linear-gradient(to left, #03656551, #041515),
+    url("../Images/Untitled\ design\ \(2\).png"); */
+  background-size: cover;
+  /* transform: scaleX(-1); */
+}
+
+.a_overlay-right {
+  right: 0;
+  transform: translateX(0);
+  /* background: linear-gradient(to right, #03656551, #041515),
+    url("../Images/Untitled\ design\ \(1\).png"); */
+  background-size: cover;
+}
+
+.social-container a {
+  height: 40px;
+  width: 40px;
+  margin: 0 5px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  background-color: #cccccc00;
+  z-index: -99;
+}
+
+/* .social-container i{
+    color: black ;
+    height: 1rem;
+    width: 1rem;
+    z-index: 999;
+
+}  */
+.social-container {
+  margin: 1px 0;
+}
+
+.seperate {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#gender {
+  margin-left: 15px;
+  width: 130px;
+}
+
+#dob {
+  margin-left: 10px;
+  width: 130px;
+}
