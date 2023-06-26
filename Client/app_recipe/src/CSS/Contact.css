@@ -4,7 +4,7 @@
 #S_wrap {
   width: 530px;
   margin: 20px auto 0;
-  height: 1000px;
+  height: 100vh;
 }
 #S_wrap h1 {
   margin-bottom: 20px;
@@ -77,14 +77,14 @@
 .S_inp_s,
 .s_textarea {
   font: 14px normal uppercase, arial, serif;
-  color: dimgray;
-  background: none;
-  width: 380px;
+  color: rgb(121, 108, 108);
+  width: 360px;
   height: 37px;
   padding: 0px 10px;
   margin: 0 0 10px 0;
   border: 1px solid #f8f5f1;
   border-radius: 5px;
+  background: rgba(252, 245, 245, 0.886);
 }
 
 .s_textarea {
@@ -94,19 +94,19 @@
 
 .s_textarea:focus,
 .S_inp_s:focus {
-  background: white;
+  background: rgb(252, 245, 245);
 }
 
 #S_form-wrap #S_sub {
   position: relative;
-  margin-left: 8rem;
+  margin-left: 6.3rem;
   font-family: tahoma;
   font-size: 24px;
-  color: rgb(128, 128, 128);
+  color: #fff;
   width: 40%;
   text-align: center;
   opacity: 0;
-  background: none;
+  background: #4385a99d;
   cursor: pointer;
   border-radius: 10px;
   transition: opacity 0.7s ease-in-out 0s;

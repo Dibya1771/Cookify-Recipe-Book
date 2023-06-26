@@ -6,7 +6,7 @@
   grid-template-columns: 1fr 2fr 1fr;
   grid-gap: 1rem;
   padding: 1rem;
-  background-color: rgb(238, 238, 238);
+  background-color: rgba(255, 255, 255, 0.304);
   border-radius: 1rem;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
@@ -63,13 +63,14 @@
   font-size: 30px;
   margin-left: 3.5rem;
   margin-right: auto;
+  margin-bottom: 2rem;
 }
 
 .ss_set #linemovement {
   width: 100px;
   height: 3px;
-  margin-left: 17rem;
-  margin-right: auto;
+  margin-left: 16rem;
+
   margin-top: -1rem;
   margin-bottom: 1rem;
   background-color: rgb(228, 36, 11);
@@ -101,6 +102,7 @@
   /* flex-direction: column; */
   /* grid-template-columns:1fr 1.5fr; */
   margin: 5rem;
+  height: 100vh;
 }
 
 #ss_remove {

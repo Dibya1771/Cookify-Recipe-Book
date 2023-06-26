@@ -1,10 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  font-family: "Georgia", sans-serif;
-  box-sizing: border-box;
-}
-
 .d_user {
   width: fit-content;
   margin-top: 40px;
@@ -37,19 +30,23 @@
   transition: transform 1s, box-shadow 1s;
 }
 .d_info {
+  width: 26rem;
+  margin-left: -2rem;
+  margin-right: -2rem;
+  padding: 1rem;
   padding: 10px 50px;
   transform: translateX(50px);
   opacity: 1;
   transition: transform 1s, opacity 1s;
 }
 .d_info h1 {
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 500;
 }
 .d_info p {
   line-height: 26px;
 }
-.d_info a {
+.d_info button {
   background: #4f40ff;
   color: #fff; /* -------------- */
   font-size: 15px;
@@ -58,6 +55,12 @@
   padding: 12px 40px;
   border-radius: 30px;
   margin-top: 16%;
+  border: 1px solid #412df991;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
 .d_close-icon {
@@ -69,7 +72,7 @@
 .d_close-icon::before,
 .d_close-icon::after {
   content: "";
-  height: 100%;
+  height: 97%;
   width: 2px;
   /* background: #333;
   border: 1px solid #e4bdbdc1; */
@@ -77,7 +80,7 @@
   border-left: 1px solid #fff152;
   position: absolute;
   top: 0;
-  margin-top: 3px;
+  margin-top: 10px;
   left: 50%;
   margin-left: -1px;
 }
@@ -115,9 +118,6 @@
   width: 35%;
   padding: 20px;
   border-radius: 14px;
-  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
-    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
 }
 
 .d_add_recipe_form {
@@ -130,8 +130,8 @@
 }
 
 /* Type writer effect */
-.d_add_recipe_form h2 {
-  font-family: "Courier New", Courier, monospace;
+.d_add_recipe_form p {
+  font-family: "courier";
   border-radius: 15px;
   box-shadow: rgba(50, 50, 93, 0.397) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.478) 0px 30px 60px -30px,
@@ -260,6 +260,7 @@
   /* Add any additional styles for the data/content section */
 }
 .d_update_form #d_set h1 {
+  font-family: "Georgia", sans-serif;
   font-weight: 550;
   text-align: center;
   font-size: 30px;

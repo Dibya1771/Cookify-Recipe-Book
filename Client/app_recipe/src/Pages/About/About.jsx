@@ -69,8 +69,7 @@ const About = () => {
                 <div id="linemovement"></div>
             </div>
             <p>
-                Our team is a very good team. Where we focus on unity. And at last I
-                want to say that Masallah Boys played well.
+                We are a passionate team dedicated to providing exceptional solutions and experiences tailored to your needs
             </p>
             <div className="s_Card">
                 {members.map((member, index) => (

@@ -12,6 +12,7 @@
   border-radius: 1rem;
 }
 .ss_video {
+  margin-top: 2.1rem;
   height: 30rem;
   display: grid;
 }
@@ -25,18 +26,25 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   padding-right: 1rem;
+  grid-gap: 2rem;
+  margin-left: 2rem;
+  padding-bottom: 2rem;
 }
 .ss_ingredients h3 {
   margin-left: 1.5rem;
-  margin-bottom: 0rem;
+  margin-bottom: 0.5rem;
   padding-top: 1rem;
 }
 
 .ss_ingredients {
-  background-color: rgb(255, 248, 240);
+  margin-top: 1rem;
   border-radius: 1rem;
-  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
-    rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+  backdrop-filter: blur(4px);
+  background-color: rgba(252, 241, 241, 0.252);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  color: #000;
 }
 
 .ss_data {
@@ -45,7 +53,7 @@
   overflow-y: scroll;
   overflow-x: hidden;
   /* width:53%; */
-  width: 48.5rem;
+  width: 46.5rem;
 }
 
 .ss_data::-webkit-scrollbar {
@@ -62,20 +70,24 @@
 }
 
 .ss_recipe {
-  background-color: rgb(255, 248, 240);
+  backdrop-filter: blur(4px);
+  background-color: rgba(252, 241, 241, 0.252);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  color: #000;
   border-radius: 1rem;
-  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
-    rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+
   margin-top: 2rem;
   padding: 1rem;
 }
 .ss_recipe h3 {
   margin-top: 0;
   padding-left: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 .ss_recipe p {
-  display: flex;
-  flex-direction: column;
+  line-height: 25px;
 }
 .ss_recipe span {
   padding: 0.4rem;

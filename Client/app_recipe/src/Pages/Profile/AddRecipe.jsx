@@ -2,7 +2,7 @@ import React, { useState, useRef } from 'react';
 import '../../CSS/Profile.css';
 //import AddIcon from '@mui/icons-material/Add';
 import SendIcon from '@mui/icons-material/Send';
-
+import swal from "sweetalert";
 const AddRecipe = () => {
     const [showForm, setShowForm] = useState(false);
     const [title, setTitle] = useState('');
@@ -26,7 +26,7 @@ const AddRecipe = () => {
             image
         };
 
-        fetch('http://localhost:8080/user', {
+        fetch('http://localhost:3000/items', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -42,6 +42,7 @@ const AddRecipe = () => {
                 setVideo('');
                 setImage('');
                 setShowForm(false);
+                swal('Congratulation !!', 'Data stored successfully', 'success');
             })
             .catch((error) => {
                 console.error('Error storing data:', error);
@@ -84,7 +85,7 @@ const AddRecipe = () => {
                             <br></br>
                             <input
                                 type="text"
-                                placeholder="Description"
+                                placeholder="Recipe"
                                 value={recipe}
                                 onChange={(e) => setRecipe(e.target.value)}
                                 className="d_form-input"

@@ -1,41 +1,87 @@
 {
   "user": [
     {
-      "name": "fff",
-      "email": "mrbiku4444@gmail.com",
-      "password": "2222",
+      "name": "Riki",
+      "email": "biku@dd.com",
+      "password": "1111",
+      "dob": "2002-07-20",
       "gender": "male",
-      "dob": "0222-02-22",
-      "id": 8
+      "id": 1
     },
     {
-      "email": "mrbiku4444@gmail.com",
-      "password": "2222",
-      "id": 9
+      "name": "sanskr",
+      "email": "dfgd@gmail.com",
+      "password": "1111",
+      "dob": "2023-06-21",
+      "gender": "male",
+      "id": 2
+    },
+    {
+      "name": "NN",
+      "email": "hh@hh.com",
+      "password": "1111",
+      "dob": "1111-11-11",
+      "gender": "male",
+      "id": 3
+    },
+    {
+      "name": "uu",
+      "email": "uu@uu.com",
+      "password": "11",
+      "dob": "1111-11-11",
+      "gender": "female",
+      "id": 4
     },
     {
       "name": "Biku",
-      "email": "div@gmail.com",
-      "password": "0000",
+      "email": "ad@gmail.com",
+      "password": "1111",
+      "dob": "1111-11-11",
       "gender": "male",
-      "dob": "1994-07-12",
-      "id": 10
+      "id": 5
+    }
+  ],
+  "fav": [
+    {
+      "userId": "2",
+      "itemId": "4",
+      "name": "Prawn Curry",
+      "image": "https://khinskitchen.com/wp-content/uploads/2022/07/prawn-curry-with-coconut-milk-07.jpg",
+      "id": 4
     },
     {
-      "email": "div@gmail.com",
-      "password": "0000",
+      "userId": "1",
+      "itemId": "3",
+      "name": "Chicken Rolls",
+      "image": "https://uploads-ssl.webflow.com/5c481361c604e53624138c2f/60f2ea67b471327a1d82959b_chicken%20roll_1500%20x%201200.jpg",
+      "id": 8
+    },
+    {
+      "userId": "2",
+      "itemId": "1",
+      "name": "Choco Chip Cookies",
+      "image": "https://images.pexels.com/photos/1546890/pexels-photo-1546890.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "id": 11
     },
     {
-      "email": "mrbiku4444@gmail.com",
-      "password": "7777",
+      "userId": "2",
+      "itemId": "10",
+      "name": "Chicken Biryani",
+      "image": "https://www.licious.in/blog/wp-content/uploads/2020/12/Hyderabadi-chicken-Biryani.jpg",
       "id": 12
+    },
+    {
+      "userId": "5",
+      "itemId": "1",
+      "name": "Choco Chip Cookies",
+      "image": "https://images.pexels.com/photos/1546890/pexels-photo-1546890.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "id": 13
     }
   ],
   "items": [
     {
       "id": 1,
-      "title": "Chocolate Chip Cookies",
+      "title": "Choco Chip Cookies",
       "ingredients": [
         "1 cup (2 sticks) unsalted butter, softened",
         "1 cup granulated sugar",
@@ -49,33 +95,10 @@
       ],
       "recipe": "1. Preheat oven to 375 degrees F (190 degrees C).\n 2. Cream together the butter, granulated sugar, and brown sugar until light and fluffy. Beat in the eggs one at a time, then stir in the vanilla.\n 3. In a separate bowl, whisk together the flour, baking soda, and salt. Gradually add to the wet ingredients, mixing until just combined. Stir in the chocolate chips.\n 4. Drop by rounded tablespoons onto ungreased baking sheets.\n 5. Bake for 10-12 minutes in the preheated oven, or until golden brown. Let cool on baking sheets for a few minutes before transferring to a wire rack to cool completely.",
       "image": "https://images.pexels.com/photos/1546890/pexels-photo-1546890.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "video": "https://www.youtube.com/watch?v=DEsf5v9oB3I"
+      "video": "https://www.youtube.com/embed/DEsf5v9oB3I"
     },
     {
-      "id": 4,
-      "title": "Chicken Curry",
-      "ingredients": [
-        "1 kg chicken, cut into pieces",
-        "2 onions, finely chopped",
-        "3 tomatoes, pureed",
-        "2 tablespoons vegetable oil",
-        "2 teaspoons ginger paste",
-        "2 teaspoons garlic paste",
-        "2 teaspoons curry powder",
-        "1 teaspoon turmeric powder",
-        "1 teaspoon cumin powder",
-        "1 teaspoon coriander powder",
-        "1/2 teaspoon red chili powder",
-        "1/2 teaspoon garam masala",
-        "Salt to taste",
-        "Fresh cilantro leaves, chopped (for garnish)"
-      ],
-      "recipe": "1. Heat vegetable oil in a large pan over medium heat.\n 2. Add the chopped onions and sauté until golden brown.\n 3. Add the ginger paste and garlic paste to the pan. Sauté for a minute until fragrant.\n 4. Add the chicken pieces to the pan and cook until they are lightly browned on all sides.\n 5. In a small bowl, mix together the curry powder, turmeric powder, cumin powder, coriander powder, red chili powder, and a little water to make a paste.\n 6. Add the spice paste to the pan and cook for a couple of minutes, stirring well to coat the chicken.\n 7. Pour in the tomato puree and season with salt. Mix well.\n 8. Cover the pan and let the chicken cook in the tomato gravy for about 20-25 minutes, or until the chicken is cooked through and tender.\n 9. Sprinkle garam masala over the chicken curry and stir to combine.\n 10. Garnish with freshly chopped cilantro leaves.\n 11. Serve hot with rice or naan bread.",
-      "image": "https://www.shutterstock.com/image-photo/spicy-reddish-chicken-curry-masala-260nw-677910214.jpg",
-      "video": "https://www.youtube.com/embed/ce2kekQM3aU "
-    },
-    {
-      "id": 5,
+      "id": 2,
       "title": "Fish Curry",
       "ingredients": [
         "500 grams fish fillets",
@@ -98,7 +121,29 @@
       "video": "https://www.youtube.com/embed/Kh1VmBY22iM"
     },
     {
-      "id": 6,
+      "id": 3,
+      "title": "Chicken Rolls",
+      "ingredients": [
+        "2 boneless, skinless chicken breasts",
+        "4 tortilla wraps",
+        "1 cup shredded lettuce",
+        "1/2 cup sliced bell peppers",
+        "1/2 cup sliced onions",
+        "1/4 cup mayonnaise",
+        "2 tablespoons Greek yogurt",
+        "1 tablespoon lemon juice",
+        "1 teaspoon Dijon mustard",
+        "1/2 teaspoon garlic powder",
+        "1/2 teaspoon paprika",
+        "Salt and pepper to taste",
+        "Oil for cooking"
+      ],
+      "recipe": "1. Season the chicken breasts with salt, pepper, garlic powder, and paprika.\n2. Heat oil in a skillet over medium heat. Cook the chicken breasts for about 6-8 minutes per side, or until cooked through and no longer pink in the center. Remove from heat and let them cool.\n3. Once cooled, slice the cooked chicken breasts into thin strips.\n4. In a small bowl, mix together mayonnaise, Greek yogurt, lemon juice, Dijon mustard, garlic powder, salt, and pepper to make a creamy sauce.\n5. Lay out a tortilla wrap on a clean surface.\n6. Spread a generous amount of the creamy sauce onto the tortilla wrap.\n7. Place a layer of shredded lettuce on top of the sauce.\n8. Arrange the sliced chicken strips, bell peppers, and onions on the lettuce.\n9. Roll up the tortilla tightly, tucking in the sides as you go.\n10. Repeat the process with the remaining tortilla wraps and fillings.\n11. Heat a clean skillet over medium heat and lightly brush it with oil.\n12. Place the rolled tortilla wraps on the skillet and cook for about 2-3 minutes on each side, or until the wraps are lightly toasted and the filling is warm.\n13. Remove from heat and let the chicken rolls cool for a minute.\n14. Slice the chicken rolls diagonally into halves or smaller portions.\n15. Serve the chicken rolls as a delicious and convenient meal or snack. Enjoy!",
+      "image": "https://uploads-ssl.webflow.com/5c481361c604e53624138c2f/60f2ea67b471327a1d82959b_chicken%20roll_1500%20x%201200.jpg",
+      "video": "https://www.youtube.com/embed/byDfGzKh7yE"
+    },
+    {
+      "id": 4,
       "title": "Prawn Curry",
       "ingredients": [
         "500 grams prawns, peeled and deveined",
@@ -121,30 +166,7 @@
       "video": "https://www.youtube.com/embed/fkSF9nALVpg"
     },
     {
-      "id": 7,
-      "title": "Mutton Curry",
-      "ingredients": [
-        "500 grams mutton, cut into pieces",
-        "2 onions, finely chopped",
-        "3 tomatoes, pureed",
-        "2 tablespoons vegetable oil",
-        "2 teaspoons ginger paste",
-        "2 teaspoons garlic paste",
-        "2 teaspoons curry powder",
-        "1 teaspoon turmeric powder",
-        "1 teaspoon cumin powder",
-        "1 teaspoon coriander powder",
-        "1/2 teaspoon red chili powder",
-        "1/2 teaspoon garam masala",
-        "Salt to taste",
-        "Fresh cilantro leaves, chopped (for garnish)"
-      ],
-      "recipe": "1. Heat vegetable oil in a large pan over medium heat.\n 2. Add the chopped onions and sauté until golden brown.\n 3. Add the ginger paste and garlic paste to the pan. Sauté for a minute until fragrant.\n 4. Add the mutton pieces to the pan and cook until they are browned on all sides.\n 5. In a small bowl, mix together the curry powder, turmeric powder, cumin powder, coriander powder, red chili powder, and a little water to make a paste.\n 6. Add the spice paste to the pan and cook for a couple of minutes, stirring well to coat the mutton.\n 7. Pour in the tomato puree and season with salt. Mix well.\n 8. Cover the pan and let the mutton cook in the tomato gravy for about 1-2 hours, or until the meat is tender and cooked through.\n 9. Sprinkle garam masala over the mutton curry and stir to combine.\n 10. Garnish with freshly chopped cilantro leaves.\n 11. Serve hot with rice or naan bread.",
-      "image": "https://myfoodstory.com/wp-content/uploads/2016/12/Easy-Mutton-Curry-2.jpg",
-      "video": "https://www.youtube.com/embed/XyCOgOFMLiM"
-    },
-    {
-      "id": 8,
+      "id": 5,
       "title": "Crab Curry",
       "ingredients": [
         "4 medium-sized crabs, cleaned and cracked",
@@ -167,7 +189,7 @@
       "video": "https://www.youtube.com/embed/dIFnrihI8jw"
     },
     {
-      "id": 9,
+      "id": 6,
       "title": "Chicken Pizza",
       "ingredients": [
         "1 pizza dough",
@@ -188,7 +210,30 @@
       "video": "https://www.youtube.com/embed/z6CmFx32k34"
     },
     {
-      "id": 10,
+      "id": 7,
+      "title": "Chicken Curry",
+      "ingredients": [
+        "1 kg chicken, cut into pieces",
+        "2 onions, finely chopped",
+        "3 tomatoes, pureed",
+        "2 tablespoons vegetable oil",
+        "2 teaspoons ginger paste",
+        "2 teaspoons garlic paste",
+        "2 teaspoons curry powder",
+        "1 teaspoon turmeric powder",
+        "1 teaspoon cumin powder",
+        "1 teaspoon coriander powder",
+        "1/2 teaspoon red chili powder",
+        "1/2 teaspoon garam masala",
+        "Salt to taste",
+        "Fresh cilantro leaves, chopped (for garnish)"
+      ],
+      "recipe": "1. Heat vegetable oil in a large pan over medium heat.\n 2. Add the chopped onions and sauté until golden brown.\n 3. Add the ginger paste and garlic paste to the pan. Sauté for a minute until fragrant.\n 4. Add the chicken pieces to the pan and cook until they are lightly browned on all sides.\n 5. In a small bowl, mix together the curry powder, turmeric powder, cumin powder, coriander powder, red chili powder, and a little water to make a paste.\n 6. Add the spice paste to the pan and cook for a couple of minutes, stirring well to coat the chicken.\n 7. Pour in the tomato puree and season with salt. Mix well.\n 8. Cover the pan and let the chicken cook in the tomato gravy for about 20-25 minutes, or until the chicken is cooked through and tender.\n 9. Sprinkle garam masala over the chicken curry and stir to combine.\n 10. Garnish with freshly chopped cilantro leaves.\n 11. Serve hot with rice or naan bread.",
+      "image": "https://recipesofhome.com/wp-content/uploads/2020/03/chicken-curry-recipe-720x540.jpg",
+      "video": "https://www.youtube.com/embed/ce2kekQM3aU "
+    },
+    {
+      "id": 8,
       "title": "Chicken Burger",
       "ingredients": [
         "1 pound ground chicken",
@@ -213,7 +258,7 @@
       "video": "https://www.youtube.com/embed/3g3_US1cfhA"
     },
     {
-      "id": 11,
+      "id": 9,
       "title": "Chicken Hotdog",
       "ingredients": [
         "4 chicken sausages",
@@ -231,7 +276,7 @@
       "video": "https://www.youtube.com/embed/T9A8CbJsFe8"
     },
     {
-      "id": 12,
+      "id": 10,
       "title": "Chicken Biryani",
       "ingredients": [
         "2 cups basmati rice",
@@ -258,7 +303,30 @@
       "video": "https://www.youtube.com/embed/jjmR9C_X7LY"
     },
     {
-      "id": 13,
+      "id": 11,
+      "title": "Mutton Curry",
+      "ingredients": [
+        "500 grams mutton, cut into pieces",
+        "2 onions, finely chopped",
+        "3 tomatoes, pureed",
+        "2 tablespoons vegetable oil",
+        "2 teaspoons ginger paste",
+        "2 teaspoons garlic paste",
+        "2 teaspoons curry powder",
+        "1 teaspoon turmeric powder",
+        "1 teaspoon cumin powder",
+        "1 teaspoon coriander powder",
+        "1/2 teaspoon red chili powder",
+        "1/2 teaspoon garam masala",
+        "Salt to taste",
+        "Fresh cilantro leaves, chopped (for garnish)"
+      ],
+      "recipe": "1. Heat vegetable oil in a large pan over medium heat.\n 2. Add the chopped onions and sauté until golden brown.\n 3. Add the ginger paste and garlic paste to the pan. Sauté for a minute until fragrant.\n 4. Add the mutton pieces to the pan and cook until they are browned on all sides.\n 5. In a small bowl, mix together the curry powder, turmeric powder, cumin powder, coriander powder, red chili powder, and a little water to make a paste.\n 6. Add the spice paste to the pan and cook for a couple of minutes, stirring well to coat the mutton.\n 7. Pour in the tomato puree and season with salt. Mix well.\n 8. Cover the pan and let the mutton cook in the tomato gravy for about 1-2 hours, or until the meat is tender and cooked through.\n 9. Sprinkle garam masala over the mutton curry and stir to combine.\n 10. Garnish with freshly chopped cilantro leaves.\n 11. Serve hot with rice or naan bread.",
+      "image": "https://myfoodstory.com/wp-content/uploads/2016/12/Easy-Mutton-Curry-2.jpg",
+      "video": "https://www.youtube.com/embed/XyCOgOFMLiM"
+    },
+    {
+      "id": 12,
       "title": "Mutton Biryani",
       "ingredients": [
         "2 cups basmati rice",
@@ -285,7 +353,7 @@
       "video": "https://www.youtube.com/embed/s4YsKuoYTe8"
     },
     {
-      "id": 14,
+      "id": 13,
       "title": "Chocolate Ice Cream",
       "ingredients": [
         "2 cups heavy cream",
@@ -301,7 +369,7 @@
       "video": "https://www.youtube.com/embed/DuDbvnM2KCE"
     },
     {
-      "id": 15,
+      "id": 14,
       "title": "Vanilla Ice Cream",
       "ingredients": [
         "2 cups heavy cream",
@@ -316,7 +384,7 @@
       "video": "https://www.youtube.com/embed/6lEQxL9A0Ow"
     },
     {
-      "id": 16,
+      "id": 15,
       "title": "Jalebi",
       "ingredients": [
         "1 cup all-purpose flour",
@@ -335,7 +403,7 @@
       "video": "https://www.youtube.com/embed/0w471_wMPP0"
     },
     {
-      "id": 17,
+      "id": 16,
       "title": "Rasgulla",
       "ingredients": [
         "4 cups full-fat milk",
@@ -352,7 +420,7 @@
       "video": "https://www.youtube.com/embed/7VDWtgqDun4"
     },
     {
-      "id": 18,
+      "id": 17,
       "title": "chicken nuggets",
       "ingredients": [
         "1 pound boneless, skinless chicken breasts",
@@ -371,7 +439,7 @@
       "video": "https://www.youtube.com/embed/f3AK45Fogp8"
     },
     {
-      "id": 19,
+      "id": 18,
       "title": "chicken sandwich",
       "ingredients": [
         "2 boneless, skinless chicken breasts",
@@ -391,7 +459,7 @@
       "video": "https://www.youtube.com/embed/XxlitHO0v18"
     },
     {
-      "id": 20,
+      "id": 19,
       "title": "Chicken Lollipop",
       "ingredients": [
         "8 chicken wings",
@@ -412,29 +480,7 @@
       "video": "https://www.youtube.com/embed/Wu3YyGXmd08"
     },
     {
-      "id": 21,
-      "title": "Chicken Rolls",
-      "ingredients": [
-        "2 boneless, skinless chicken breasts",
-        "4 tortilla wraps",
-        "1 cup shredded lettuce",
-        "1/2 cup sliced bell peppers",
-        "1/2 cup sliced onions",
-        "1/4 cup mayonnaise",
-        "2 tablespoons Greek yogurt",
-        "1 tablespoon lemon juice",
-        "1 teaspoon Dijon mustard",
-        "1/2 teaspoon garlic powder",
-        "1/2 teaspoon paprika",
-        "Salt and pepper to taste",
-        "Oil for cooking"
-      ],
-      "recipe": "1. Season the chicken breasts with salt, pepper, garlic powder, and paprika.\n2. Heat oil in a skillet over medium heat. Cook the chicken breasts for about 6-8 minutes per side, or until cooked through and no longer pink in the center. Remove from heat and let them cool.\n3. Once cooled, slice the cooked chicken breasts into thin strips.\n4. In a small bowl, mix together mayonnaise, Greek yogurt, lemon juice, Dijon mustard, garlic powder, salt, and pepper to make a creamy sauce.\n5. Lay out a tortilla wrap on a clean surface.\n6. Spread a generous amount of the creamy sauce onto the tortilla wrap.\n7. Place a layer of shredded lettuce on top of the sauce.\n8. Arrange the sliced chicken strips, bell peppers, and onions on the lettuce.\n9. Roll up the tortilla tightly, tucking in the sides as you go.\n10. Repeat the process with the remaining tortilla wraps and fillings.\n11. Heat a clean skillet over medium heat and lightly brush it with oil.\n12. Place the rolled tortilla wraps on the skillet and cook for about 2-3 minutes on each side, or until the wraps are lightly toasted and the filling is warm.\n13. Remove from heat and let the chicken rolls cool for a minute.\n14. Slice the chicken rolls diagonally into halves or smaller portions.\n15. Serve the chicken rolls as a delicious and convenient meal or snack. Enjoy!",
-      "image": "https://uploads-ssl.webflow.com/5c481361c604e53624138c2f/60f2ea67b471327a1d82959b_chicken%20roll_1500%20x%201200.jpg",
-      "video": "https://www.youtube.com/embed/byDfGzKh7yE"
-    },
-    {
-      "id": 22,
+      "id": 20,
       "title": "Chicken Butter Masala",
       "ingredients": [
         "1.5 pounds boneless, skinless chicken thighs or breasts, cut into bite-sized pieces",
@@ -458,7 +504,7 @@
       "video": "https://www.youtube.com/embed/b7yuoRk227Y"
     },
     {
-      "id": 23,
+      "id": 21,
       "title": "Brownies",
       "ingredients": [
         "1 cup unsalted butter",
@@ -475,7 +521,7 @@
       "video": "https://www.youtube.com/embed/Z1OLG7F3HD4"
     },
     {
-      "id": 24,
+      "id": 22,
       "title": "Cheesecake",
       "ingredients": [
         "2 cups graham cracker crumbs",
@@ -493,7 +539,7 @@
       "video": "https://www.youtube.com/embed/q4wUWqV8kjc"
     },
     {
-      "id": 25,
+      "id": 23,
       "title": "Kheer",
       "ingredients": [
         "1/2 cup basmati rice",
@@ -511,7 +557,7 @@
       "video": "https://www.youtube.com/embed/9aP9y2LHEIA"
     },
     {
-      "id": 26,
+      "id": 24,
       "title": "Sandesh",
       "ingredients": [
         "2 cups paneer (Indian cottage cheese)",
@@ -525,7 +571,7 @@
       "video": "https://www.youtube.com/embed/kxwKwxrtiOw"
     },
     {
-      "id": 27,
+      "id": 25,
       "title": "Shahi Tukda",
       "ingredients": [
         "4 slices of bread",
@@ -543,7 +589,7 @@
       "video": "https://www.youtube.com/embed/geeAygBwogw"
     },
     {
-      "id": 30,
+      "id": 26,
       "title": "Mac and Cheese",
       "ingredients": [
         "8 ounces elbow macaroni",
@@ -557,11 +603,11 @@
         "1/4 teaspoon paprika"
       ],
       "recipe": "1. Cook the elbow macaroni according to package instructions. Drain and set aside.\n 2. In a large saucepan, melt the butter over medium heat. Stir in the flour and cook for 1-2 minutes, until it turns golden brown.\n 3. Gradually whisk in the milk, making sure there are no lumps. Cook until the mixture thickens and starts to bubble.\n 4. Remove the saucepan from heat and stir in the shredded cheddar cheese and grated Parmesan cheese until melted and smooth.\n 5. Stir in the cooked macaroni, salt, black pepper, and paprika until well coated.\n 6. Serve the mac and cheese hot, garnished with additional shredded cheddar cheese if desired.",
-      "image": "https://images.pexels.com/photos/442375/pexels-photo-442375.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "image": "https://www.recipetineats.com/wp-content/uploads/2020/11/Baked-Mac-and-Cheese-pull-shot.jpg",
       "video": "https://www.youtube.com/watch?v=abc123xyz"
     },
     {
-      "id": 42,
+      "id": 27,
       "title": "Samosa",
       "ingredients": [
         "- 2 cups all-purpose flour",
@@ -584,7 +630,7 @@
       "video": "https://www.youtube.com/embed/EKPAfUCn_Jo"
     },
     {
-      "id": 53,
+      "id": 28,
       "title": "Chole Bhature",
       "ingredients": [
         "- For Chole (Chickpea Curry):",
@@ -617,7 +663,7 @@
       "video": "https://www.youtube.com/embed/aFzBnNWEu5Y"
     },
     {
-      "id": 55,
+      "id": 29,
       "title": "Palak Paneer",
       "ingredients": [
         "- 2 cups spinach leaves, blanched and pureed",
@@ -640,7 +686,7 @@
       "video": "https://www.youtube.com/embed/vCDy7vjbz_M"
     },
     {
-      "id": 58,
+      "id": 30,
       "title": "Masala Dosa",
       "ingredients": [
         "- For the Dosa Batter:",
@@ -665,7 +711,7 @@
       "video": "https://www.youtube.com/embed/cCkgSo9AD4U"
     },
     {
-      "id": 63,
+      "id": 31,
       "title": "Paneer Tikka",
       "ingredients": [
         "- 250 grams paneer (Indian cottage cheese), cut into cubes",
@@ -689,7 +735,7 @@
       "video": "https://www.youtube.com/embed/c-oVDb-O2Q8"
     },
     {
-      "id": 65,
+      "id": 32,
       "title": "Pav Bhaji",
       "ingredients": [
         "- 2 tablespoons butter",
@@ -712,7 +758,7 @@
       "video": "https://www.youtube.com/embed/Qe8ejVPAFu8"
     },
     {
-      "id": 67,
+      "id": 33,
       "title": "Rajma Chawal",
       "ingredients": [
         "- For Rajma (Kidney Bean Curry):",
@@ -739,7 +785,7 @@
       "video": "https://www.youtube.com/embed/4TAmm-6YE4Y"
     },
     {
-      "id": 62,
+      "id": 34,
       "title": "Panipuri",
       "ingredients": [
         "- For the Puris:",
@@ -773,7 +819,7 @@
       "video": "https://www.youtube.com/embed/fOu3wB0Inx8"
     },
     {
-      "id": 82,
+      "id": 35,
       "title": "Aloo Gobi",
       "ingredients": [
         "- 2 cups cauliflower florets",
@@ -795,7 +841,7 @@
       "video": "https://www.youtube.com/embed/PhgyyJE90w8"
     },
     {
-      "id": 57,
+      "id": 36,
       "title": "Dal Makhani",
       "ingredients": [
         "- 1 cup whole black lentils (urad dal), soaked overnight",
@@ -820,7 +866,7 @@
       "video": "https://www.youtube.com/embed/dOiwccflDkY"
     },
     {
-      "id": 61,
+      "id": 37,
       "title": "Malai Kofta",
       "ingredients": [
         "- For the koftas:",
@@ -852,7 +898,7 @@
       "video": "https://www.youtube.com/embed/JKNXj6Hp8gA"
     },
     {
-      "id": 59,
+      "id": 38,
       "title": "Vegetable Manchurian",
       "ingredients": [
         "- For Manchurian Balls:",
@@ -888,7 +934,7 @@
       "video": "https://www.youtube.com/embed/DkZR9sgwm8E"
     },
     {
-      "id": 78,
+      "id": 39,
       "title": "Aloo Paratha",
       "ingredients": [
         "- For the dough:",
@@ -910,7 +956,7 @@
       "video": "https://www.youtube.com/embed/r2N8ObqAgy0"
     },
     {
-      "id": 61,
+      "id": 40,
       "title": "Pizza",
       "ingredients": [
         "- 2 1/4 cups all-purpose flour",
@@ -932,7 +978,7 @@
       "video": "https://www.youtube.com/embed/8IWxfhYnGao"
     },
     {
-      "id": 54,
+      "id": 41,
       "title": "Veggie Burger",
       "ingredients": [
         "- 1 cup cooked quinoa",
@@ -957,7 +1003,7 @@
       "video": "https://www.youtube.com/embed/_q5GKCNZcHI"
     },
     {
-      "id": 50,
+      "id": 42,
       "title": "Pasta",
       "ingredients": [
         "- 8 ounces pasta (your choice of shape)",
@@ -977,7 +1023,7 @@
       "video": "https://www.youtube.com/embed/bcnPfcJnYr0"
     },
     {
-      "id": 59,
+      "id": 43,
       "title": "Sandwich",
       "ingredients": [
         "- 8 slices of bread",
@@ -990,11 +1036,11 @@
         "- Salt and pepper to taste"
       ],
       "recipe": "1. Take two slices of bread and spread butter on one side of each slice.\n 2. On one buttered side, spread a layer of mayonnaise and mustard sauce.\n 3. Place the sliced vegetables, cheese, and boiled eggs (if using) on the sauce.\n 4. Sprinkle salt and pepper to taste.\n 5. Cover the filling with another buttered slice of bread, with the buttered side facing outwards.\n 6. Repeat the process for the remaining slices of bread and filling.\n 7. Heat a sandwich maker or a pan over medium heat.\n 8. Place the assembled sandwiches on the heated surface and cook until the bread turns golden brown and the cheese melts.\n 9. Flip the sandwiches to cook the other side evenly.\n 10. Once both sides are crispy and the cheese is melted, remove the sandwiches from heat.\n 11. Cut the sandwiches diagonally into halves or quarters.\n 12. Serve hot and enjoy!",
-      "image": "https://www.pexels.com/@alohaphotostudio/",
+      "image": "https://static.toiimg.com/photo/83740315.cms",
       "video": "https://www.youtube.com/embed/KdLvelT0R1A"
     },
     {
-      "id": 97,
+      "id": 44,
       "title": "Mixed Green Salad",
       "ingredients": [
         "- 4 cups mixed salad greens (such as lettuce, spinach, arugula)",
@@ -1015,7 +1061,7 @@
       "video": "https://www.youtube.com/embed/eP0-6MYo4cI"
     },
     {
-      "id": 57,
+      "id": 45,
       "title": "Pakoda",
       "ingredients": [
         "- 1 cup gram flour (besan)",
@@ -1039,7 +1085,7 @@
       "video": "https://www.youtube.com/embed/ibzQobIsG4k"
     },
     {
-      "id": 52,
+      "id": 46,
       "title": "Chaat",
       "ingredients": [
         "- 2 cups boiled chickpeas",
@@ -1061,7 +1107,7 @@
       "video": "https://www.youtube.com/embed/ewgy8XMDz88"
     },
     {
-      "id": 69,
+      "id": 47,
       "title": "Sushi",
       "ingredients": [
         "- 2 cups sushi rice",
@@ -1078,7 +1124,7 @@
       "video": "https://www.youtube.com/embed/OWVjync6peU"
     },
     {
-      "id": 49,
+      "id": 48,
       "title": "Vegetable Soup",
       "ingredients": [
         "- 2 cups mixed vegetables (carrots, peas, corn, beans, etc.), chopped",
@@ -1097,7 +1143,7 @@
       "video": "https://www.youtube.com/embed/DPFT-R2mr1A"
     },
     {
-      "id": 72,
+      "id": 49,
       "title": "Rasmalai",
       "ingredients": [
         "- For the Rasgulla (Cottage Cheese Balls):",
@@ -1119,7 +1165,7 @@
       "video": "https://www.youtube.com/embed/EKPAfUCn_Jo"
     },
     {
-      "id": 90,
+      "id": 50,
       "title": "Lassi",
       "ingredients": [
         "- 1 cup plain yogurt",
@@ -1132,23 +1178,14 @@
       "recipe": "1. In a blender, combine the plain yogurt, chilled milk, sugar, and cardamom powder.\n 2. Blend on high speed until the mixture becomes smooth and frothy.\n 3. Taste and adjust the sweetness if needed by adding more sugar.\n 4. Pour the lassi into serving glasses filled with crushed ice.\n 5. Garnish with rose petals and chopped pistachios.\n 6. Serve the lassi chilled and enjoy!",
       "image": "https://images.pexels.com/photos/4475024/pexels-photo-4475024.jpeg?auto=compress&cs=tinysrgb&w=400",
       "video": "https://www.youtube.com/embed/RCimLIOHcq4"
-    }
-  ],
-  "fav": [
-    {
-      "id": 1,
-      "item_name": "Chocolate Chip Cookies",
-      "image_url": "https://images.pexels.com/photos/1546890/pexels-photo-1546890.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
-      "id": 2,
-      "item_name": "Chocolate Chip Cookies",
-      "image_url": "https://images.pexels.com/photos/1546890/pexels-photo-1546890.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-    },
-    {
-      "id": 3,
-      "item_name": "Chocolate Chip Cookies",
-      "image_url": "https://images.pexels.com/photos/1546890/pexels-photo-1546890.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      "title": "Chicken Chaw mein",
+      "ingredients": " \"2 boneless, skinless chicken breasts\",         \"4 tortilla wraps\",         \"1 cup shredded lettuce\",         \"1/2 cup sliced bell peppers\",         \"1/2 cup sliced onions\",         \"1/4 cup mayonnaise\",         \"2 tablespoons Greek yogurt\",         \"1 tablespoon lemon juice\",         \"1 teaspoon Dijon mustard\",         \"1/2 teaspoon garlic powder\",         \"1/2 teaspoon paprika\",         \"Salt and pepper to taste\",         \"Oil for cooking\"",
+      "recipe": "1. Season the chicken breasts with salt, pepper, garlic powder, and paprika.\\n2. Heat oil in a skillet over medium heat. Cook the chicken breasts for about 6-8 minutes per side, or until cooked through and no longer pink in the center. Remove from heat and let them cool.\\n3. Once cooled, slice the cooked chicken breasts into thin strips.\\n4. In a small bowl, mix together mayonnaise, Greek yogurt, lemon juice, Dijon mustard, garlic powder, salt, and pepper to make a creamy sauce.\\n5. Lay out a tortilla wrap on a clean surface.\\n6. Spread a generous amount of the creamy sauce onto the tortilla wrap.\\n7. Place a layer of shredded lettuce on top of the sauce.\\n8. Arrange the sliced chicken strips, bell peppers, and onions on the lettuce.\\n9. Roll up the tortilla tightly, tucking in the sides as you go.\\n10. Repeat the process with the remaining tortilla wraps and fillings.\\n11. Heat a clean skillet over medium heat and lightly brush it with oil.\\n12. Place the rolled tortilla wraps on the skillet and cook for about 2-3 minutes on each side, or until the wraps are lightly toasted and the filling is warm.\\n13. Remove from heat and let the chicken rolls cool for a minute.\\n14. Slice the chicken rolls diagonally into halves or smaller portions.\\n15. Serve the chicken rolls as a delicious and convenient meal or snack. Enjoy!",
+      "video": "https://www.youtube.com/embed/lumjG47pfOc ",
+      "image": "https://thebigmansworld.com/wp-content/uploads/2023/02/chicken-chow-mein-recipe.jpg",
+      "id": 51
     }
   ]
 }

@@ -6,7 +6,7 @@ import Button from "@mui/material/Button";
 import Images1 from "../../Images/res_d1.png";
 import Images from "../../Images/res_d2.png";
 import Footer from "../../Components/Footer";
-
+import swal from "sweetalert";
 const Favourites = () => {
     const [favourites, setFavourites] = useState([]);
 
@@ -14,9 +14,11 @@ const Favourites = () => {
         fetchData();
     }, []);
 
+    const userId = localStorage.getItem('token'); // Getting the actual user ID
+
     const fetchData = async () => {
         try {
-            const response = await fetch("http://localhost:8080/fav");
+            const response = await fetch(`http://localhost:3000/fav?userId=${userId}`);
             const data = await response.json();
             setFavourites(data);
         } catch (error) {
@@ -26,13 +28,15 @@ const Favourites = () => {
 
     const removeFromFavourites = async (itemId) => {
         try {
-            await fetch(`http://localhost:8080/fav/${itemId}`, {
+            await fetch(`http://localhost:3000/fav/${itemId}`, {
                 method: "DELETE",
             });
             // Update the state by filtering out the deleted item
             const updatedFavourites = favourites.filter((item) => item.id !== itemId);
             setFavourites(updatedFavourites);
             console.log("Data deleted successfully.");
+            swal("Success!", "Item removed from favourites", "success"); // Display the SweetAlert message
+
         } catch (error) {
             console.log("Error deleting data:", error);
         }
@@ -53,9 +57,9 @@ const Favourites = () => {
 
                     {favourites.map((el) => (
                         <div className="ss_field" key={el.id}>
-                            <img src={el.image_url} alt={el.item_name} />
+                            <img src={el.image} alt={el.name} />
                             <h2>
-                                {el.item_name}
+                                {el.name}
                                 <Rater total={5} rating={2} />
                             </h2>
                             <div>

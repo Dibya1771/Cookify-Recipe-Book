@@ -10,7 +10,7 @@ import Logo from '../Images/cookify_Logo.png';
 import Button from '@mui/material/Button';
 import { colors } from '@mui/material';
 
-function Navbar({ handleColorChange }) {
+function Navbar({ isLoggedIn, handleLogout, handleColorChange }) {
     const [sidebar, setSidebar] = useState(false);
     const [expandNotch, setExpandNotch] = useState(false);
 
@@ -126,11 +126,14 @@ function Navbar({ handleColorChange }) {
                         </Link>
                         {/* <button className='d_btn'>Login</button> */}
                         <div className='ddd_right'>
-                            <Link to='./login'>
-                                <Button variant="contained" style={{ color: "#fff", backgroundColor: "#4caf50", boxShadow: " rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px" }}>
-                                    Login
-                                </Button>
-                            </Link>
+                            {/* Render the button based on the isLoggedIn prop */}
+                            {isLoggedIn ? (
+                                <Button onClick={handleLogout} style={{ color: "#fff", backgroundColor: "#4caf50", boxShadow: " rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px" }} >Logout</Button>
+                            ) : (
+                                <Link to="./login">
+                                    <Button variant="contained" style={{ color: "#fff", backgroundColor: "#4caf50", boxShadow: " rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px" }} >Login</Button>
+                                </Link>
+                            )}
                         </div>
 
                     </div>

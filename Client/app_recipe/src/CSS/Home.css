@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&display=swap");
+
+.container {
+  margin-left: 3.3rem;
+  display: grid;
+  padding: 2rem;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 2rem;
+  justify-content: space-between;
+  min-height: 20vh;
+}
+
+.card {
+  width: 200px;
+  height: 300px; /* Adjust the height as needed */
+  border-radius: 1rem;
+  /* background: rgba(112, 112, 112, 0.558);
+  backdrop-filter: blur(4px); */
+  background-color: rgba(252, 241, 241, 0.252);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.card img {
+  width: 90%;
+  margin-top: 0.5rem;
+  margin-left: 0.65rem;
+  height: 70%; /* Adjust the image height as needed */
+  object-fit: cover; /* Ensure the image fills the card */
+  border-radius: 1rem;
+}
+
+.card h3 {
+  font-size: 18px;
+  margin-top: 1rem;
+  text-align: center;
+  color: #000;
+}
+
+.content img {
+  width: 100%;
+  height: 600px;
+}
+
+#n_search {
+  margin: auto;
+  margin-bottom: 1.4rem;
+  margin-top: 12rem;
+  display: flex;
+  justify-content: center;
+  width: 15rem;
+  align-items: center;
+  background-color: lightgray;
+  padding: 10px;
+  border-radius: 2rem;
+  border-width: 0;
+  z-index: 10;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.search-container {
+  position: relative; /* Add position relative to enable pseudo-element positioning */
+  background-image: url("https://img.myloview.com/stickers/stone-cooking-banner-kitchen-board-with-vegetables-and-spices-top-view-free-copy-space-700-192806530.jpg");
+  height: 22rem;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: -5rem;
+}
+
+.search-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.5; /* Adjust the opacity as desired */
+}
+
+.search-container p {
+  text-align: center;
+  margin: 0;
+  z-index: 1; /* Ensure the text appears above the pseudo-element */
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  background-color: lightgray;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pagination button.active {
+  background-color: gray;
+  color: white;
+}
+
+#n_icon {
+  /* color:white; */
+  z-index: 10;
+  font-size: 2.6rem;
+  margin-top: 11.8rem;
+  margin-left: -2.5rem;
+  /* background-color:rgb(190, 117, 117); */
+  border-radius: 2rem;
+  padding: 6px;
+  color: #000;
+  cursor: pointer;
+}
+
+.ss_typing-animation {
+  /* margin-top: -15rem; */
+  font-size: 1.1rem;
+  font-family: "courier";
+  font-weight: 600;
+  z-index: 999;
+  color: white;
+}
+.ss_ss_ss {
+  margin-top: -3rem;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#n_header {
+  margin-left: 5.3rem;
+}
