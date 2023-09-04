@@ -4,6 +4,8 @@ import AddRecipe from './AddRecipe';
 import imagess from '../../Images/default_profile_image.png';
 import Typewriter from 'typewriter-effect';
 import swal from 'sweetalert';
+import gomu from '../../Images/gomu.webp';
+
 
 const Profile = ({ shouldClearProfile, setShouldClearProfile }) => {
     const [user, setUser] = useState(null);
@@ -124,7 +126,13 @@ const Profile = ({ shouldClearProfile, setShouldClearProfile }) => {
                             <button onClick={handleUpdate}>Update</button>
                         </div>
                     ) : (
-                        <p>{errorMessage}</p>
+                        <div>
+                            <div className="d_info">
+                                <h1>Hyy User,</h1>
+                                <p>Please login to continue...</p>
+                            </div>
+                            <p>{errorMessage}</p>
+                        </div>
                     )}
                     <div className="d_close-icon" onClick={closeInfo}></div>
                 </div>
@@ -147,6 +155,10 @@ const Profile = ({ shouldClearProfile, setShouldClearProfile }) => {
                 </p>
             </div>
             <AddRecipe />
+            <div className='gomu_move'>
+                <img src={gomu} alt="popcorn loading..." className='d_img_move' />
+                <img src={gomu} alt="popcorn loading..." className='d_img_move' />
+            </div>
         </div>
     );
 };

@@ -6,7 +6,7 @@ import Pagination from "../../Components/Pagination";
 const Meal = () => {
   const [item, setItem] = useState([]);
   var l = localStorage.getItem("login");
-  if (l != 'true')
+  if (l !== 'true')
     localStorage.setItem('notice', 'Logout');
   console.log(l);
 
@@ -25,7 +25,7 @@ const Meal = () => {
 
   return (
     <div className="n_main">
-      <Pagination data={item} itemsPerPage={10} />
+      <Pagination data={item} itemsPerPage={12} />
     </div>
   );
 };

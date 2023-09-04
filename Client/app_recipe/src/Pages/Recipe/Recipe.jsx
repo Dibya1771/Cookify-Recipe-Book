@@ -56,9 +56,6 @@ const Recipe = () => {
       });
   };
 
-
-
-
   if (!recipeData) {
     return <div>Loading...</div>; // Render loading state while fetching data
   }
@@ -79,7 +76,7 @@ const Recipe = () => {
       <div className="ss_data">
         <div className="ss_data-child">
           <h2 className="ss_item" style={{ marginTop: '4rem', display: 'flex' }}>{title}</h2>
-          <Rater total={5} rating={2} style={{ fontSize: '30px', marginLeft: '32rem', marginTop: "-10rem" }} />
+          <Rater total={5} rating={2} style={{ fontSize: '1.875rem', marginTop: "-2rem" }} className="starss" />
           <div className="ss_ingredients">
             <h3>Ingredients</h3>
             <div className="ss_ingredient_child">

@@ -13,11 +13,11 @@
 
 .a_container {
   position: relative;
-  width: 768px;
+  width: 48rem;
   max-width: 100%;
-  min-height: 480px;
+  min-height: 30rem;
   /* background: #fff; */
-  border-radius: 10px;
+  border-radius: 0.625rem;
   overflow: hidden;
   /* box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); */
 
@@ -56,7 +56,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 0 50px;
+  padding: 0 3.125rem;
   height: 100%;
   text-align: center;
 }
@@ -68,19 +68,19 @@
 }
 
 .a_ppp {
-  line-height: 20px;
-  letter-spacing: 0.5px;
-  margin: 15px 0 10px;
+  line-height: 1.25rem;
+  letter-spacing: 0.031rem;
+  margin: 0.938rem 0 10px;
 }
 
 .a_boxx,
 .box6,
 #dob {
   background: #d9d9d9;
-  padding: 12px 15px;
-  margin: 8px 15px;
+  padding: 0.75rem 0.938rem;
+  margin: 0.5rem 0.938rem;
   width: 100%;
-  border-radius: 5px;
+  border-radius: 0.313rem;
   border: none;
   outline: none;
 }
@@ -89,22 +89,22 @@
 .a_sign-in a,
 .a_sign-up a {
   color: #333;
-  font-size: 14px;
+  font-size: 0.875rem;
   text-decoration: none;
-  margin: 15px 0;
+  margin: 0.938rem 0;
 }
 
 .a_button {
   color: #fff;
   background: #033333c9;
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: bold;
-  padding: 12px 55px;
-  margin: 20px;
-  border-radius: 20px;
+  padding: 0.75rem 3.438rem;
+  margin: 1.25rem;
+  border-radius: 1.25rem;
   border: 1px solid #004141d0;
   outline: none;
-  letter-spacing: 1px;
+  letter-spacing: 0.063rem;
   text-transform: uppercase;
   transition: transform 80ms ease-in;
   cursor: pointer;
@@ -168,7 +168,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 0 40px;
+  padding: 0 2.5rem;
   text-align: center;
   top: 0;
   height: 100%;
@@ -196,13 +196,13 @@
 }
 
 .social-container a {
-  height: 40px;
-  width: 40px;
-  margin: 0 5px;
+  height: 2.5rem;
+  width: 2.5rem;
+  margin: 0 0.313rem;
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid #ccc;
+  border: 0.063rem solid #ccc;
   border-radius: 50%;
   background-color: #cccccc00;
   z-index: -99;
@@ -216,7 +216,7 @@
 
 }  */
 .social-container {
-  margin: 1px 0;
+  margin: 0.063rem 0;
 }
 
 .seperate {
@@ -225,11 +225,30 @@
 }
 
 #gender {
-  margin-left: 15px;
-  width: 130px;
+  margin-left: 0.938rem;
+  width: 8.125rem;
 }
 
 #dob {
-  margin-left: 10px;
-  width: 130px;
+  margin-left: 0.625rem;
+  width: 8.125rem;
+}
+@media screen and (max-width: 790px) {
+  #cont_body {
+    min-height: 94vh;
+    margin-top: 8.7vh;
+    zoom: 80%;
+  }
+}
+@media screen and (max-width: 620px) {
+  #cont_body {
+    min-height: 120vh;
+    zoom: 60%;
+  }
+}
+@media screen and (max-width: 466px) {
+  #cont_body {
+    min-height: 150vh;
+    zoom: 50%;
+  }
 }

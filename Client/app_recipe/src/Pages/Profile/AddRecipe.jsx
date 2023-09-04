@@ -51,7 +51,7 @@ const AddRecipe = () => {
 
     return (
         <div>
-            <button onClick={handlePostClick} className="d_post-button"  >       {/** */}
+            <button onClick={handlePostClick} className="d_post-button" >       {/** */}
                 Add New Recipe
             </button>
 

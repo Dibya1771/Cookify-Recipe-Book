@@ -39,6 +39,22 @@
       "dob": "1111-11-11",
       "gender": "male",
       "id": 5
+    },
+    {
+      "name": "Biku",
+      "email": "biku@gma",
+      "password": "1111",
+      "dob": "2002-07-20",
+      "gender": "male",
+      "id": 6
+    },
+    {
+      "name": "Dibya",
+      "email": "biku@gmail.com",
+      "password": "1111",
+      "dob": "2002-07-20",
+      "gender": "male",
+      "id": 7
     }
   ],
   "fav": [
@@ -76,6 +92,34 @@
       "name": "Choco Chip Cookies",
       "image": "https://images.pexels.com/photos/1546890/pexels-photo-1546890.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "id": 13
+    },
+    {
+      "userId": null,
+      "itemId": "1",
+      "name": "Choco Chip Cookies",
+      "image": "https://images.pexels.com/photos/1546890/pexels-photo-1546890.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "id": 14
+    },
+    {
+      "userId": "7",
+      "itemId": "3",
+      "name": "Chicken Rolls",
+      "image": "https://uploads-ssl.webflow.com/5c481361c604e53624138c2f/60f2ea67b471327a1d82959b_chicken%20roll_1500%20x%201200.jpg",
+      "id": 16
+    },
+    {
+      "userId": "1",
+      "itemId": "1",
+      "name": "Choco Chip Cookies",
+      "image": "https://images.pexels.com/photos/1546890/pexels-photo-1546890.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "id": 17
+    },
+    {
+      "userId": "1",
+      "itemId": "4",
+      "name": "Prawn Curry",
+      "image": "https://khinskitchen.com/wp-content/uploads/2022/07/prawn-curry-with-coconut-milk-07.jpg",
+      "id": 18
     }
   ],
   "items": [
@@ -1186,6 +1230,14 @@
       "video": "https://www.youtube.com/embed/lumjG47pfOc ",
       "image": "https://thebigmansworld.com/wp-content/uploads/2023/02/chicken-chow-mein-recipe.jpg",
       "id": 51
+    },
+    {
+      "title": "Chicken curry",
+      "ingredients": "chicken",
+      "recipe": "hgfiudskgtiudshgffkjfg",
+      "video": "none",
+      "image": "https://i0.wp.com/southindianrecipes.in/wp-content/uploads/2021/09/Chicken-Curry-Recipe.jpg",
+      "id": 52
     }
   ]
 }

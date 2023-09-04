@@ -1,9 +1,9 @@
 .ss_card {
   display: flex;
   margin-bottom: 3rem;
-  height: 93vh;
+  /* height: auto; */
   text-align: left;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 #ss_iframe {
   margin: 2rem;
@@ -48,12 +48,13 @@
 }
 
 .ss_data {
-  margin: 0rem 0rem 0rem -3rem;
-  height: 100vh;
+  margin: 0rem 0rem -6rem -3rem;
+
+  /* height: 100vh; */
   overflow-y: scroll;
   overflow-x: hidden;
   /* width:53%; */
-  width: 46.5rem;
+  /* width: 46.5rem; */
 }
 
 .ss_data::-webkit-scrollbar {
@@ -79,6 +80,7 @@
   border-radius: 1rem;
 
   margin-top: 2rem;
+  margin-bottom: 6rem;
   padding: 1rem;
 }
 .ss_recipe h3 {
@@ -87,7 +89,7 @@
   margin-bottom: 0.5rem;
 }
 .ss_recipe p {
-  line-height: 25px;
+  line-height: 1.563rem;
 }
 .ss_recipe span {
   padding: 0.4rem;
@@ -96,4 +98,107 @@
   margin: 0 2rem 0 2rem;
   background-color: rgb(166, 91, 0);
   border-radius: 0.5rem;
+  z-index: 9;
+}
+.starss {
+  display: flex;
+  float: right;
+}
+
+@media screen and (max-width: 1200px) {
+  .ss_card {
+    flex-direction: column;
+  }
+  #ss_iframe {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    /* height: 100%; */
+    /* height: 16rem; */
+  }
+
+  .ss_data {
+    margin-left: 0rem;
+  }
+}
+@media screen and (max-width: 570px) {
+  #ss_iframe {
+    height: 60%;
+    position: relative;
+  }
+  .ss_video p {
+    margin-top: -5rem;
+  }
+  #ss_add {
+    margin-top: -8rem;
+    height: 2rem;
+    margin: none;
+  }
+  .ss_ingredient_child {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 2rem;
+  }
+
+  .ss_data {
+    margin-left: -1rem;
+    margin-top: -14rem;
+  }
+  .starss {
+    float: left;
+    padding-top: 3rem;
+  }
+  .ss_ingredients {
+    margin-top: 4rem;
+  }
+}
+@media screen and (max-width: 355px) {
+  #ss_iframe {
+    height: 50%;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  #ss_iframe {
+    zoom: 80%;
+  }
+  .ss_data-child h2 {
+    font-size: 1.4rem;
+  }
+  .ss_video p {
+    font-size: 0.87rem;
+  }
+}
+@media screen and (max-width: 285px) {
+  #ss_iframe {
+    zoom: 55%;
+  }
+  .ss_data-child h2 {
+    font-size: 1rem;
+  }
+  .ss_video p {
+    font-size: 0.77rem;
+  }
+  #ss_add {
+    margin-top: -11rem;
+    font-size: 0.7rem;
+  }
+  .ss_ingredient_child {
+    font-size: 0.8rem;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .ss_data {
+    margin-top: -19.5rem;
+  }
+  .starss {
+    padding-top: 2rem;
+  }
+  .ss_ingredients {
+    margin-top: 3rem;
+  }
+}
+@media screen and (max-width: 250px) {
+  .ss_video p {
+    font-size: 0.59rem;
+  }
 }
